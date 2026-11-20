@@ -1,6 +1,6 @@
 # FrischKorb
 
-FrischKorb ist mein Projekt aus dem JavaScript- und AJAX-Kurs. Ich wollte einen kleinen Shop bauen, in dem man Produkte suchen und einen Warenkorb zusammenstellen kann.
+FrischKorb ist ein kleiner Online-Shop. Man kann Produkte suchen, nach Kategorien filtern, sortieren und in den Warenkorb legen. Dort lassen sich Mengen ändern, einzelne Artikel entfernen und der Gesamtpreis wird automatisch berechnet.
 
 ## Funktionen
 
@@ -8,6 +8,7 @@ FrischKorb ist mein Projekt aus dem JavaScript- und AJAX-Kurs. Ich wollte einen 
 - Suche nach Produktnamen und Filter nach Kategorien
 - Sortieren nach Name oder Preis
 - Warenkorb mit Plus, Minus und Löschen
+- **Alle löschen** erscheint, sobald mehr als zwei verschiedene Produkte im Warenkorb liegen
 - Gesamtpreis wird automatisch berechnet
 - Warenkorb bleibt durch LocalStorage auch nach dem Neuladen gespeichert
 
@@ -17,13 +18,13 @@ FrischKorb ist mein Projekt aus dem JavaScript- und AJAX-Kurs. Ich wollte einen 
 
 ![Startseite von FrischKorb](docs/screenshots/startseite.png)
 
-**Produktübersicht**
+**Produktübersicht mit Suche, Sortierung und Kategorien**
 
-![Produkte und Kategorien](docs/screenshots/produkte.png)
+![Produkte in FrischKorb](docs/screenshots/produkte.png)
 
-**Warenkorb**
+**Warenkorb mit drei verschiedenen Produkten und „Alle löschen“**
 
-![Warenkorb mit Mengensteuerung](docs/screenshots/warenkorb.png)
+![Warenkorb mit Mengensteuerung und Alle-löschen-Button](docs/screenshots/warenkorb.png)
 
 ## Technologien
 
@@ -39,5 +40,3 @@ Den Ordner in VS Code öffnen und `index.html` mit **Live Server** starten. Die 
 - `js/main.js` – JavaScript für Produkte und Warenkorb
 - `data/products.json` – Produktliste
 - `css/`, `assets/` und `img/` – Design, Icons und Bilder
-
-*Für das Grundlayout habe ich Elemente aus dem Ogani-Template von Colorlib angepasst.*
