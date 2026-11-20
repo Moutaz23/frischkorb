@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FrischKorb – Produkte entdecken, suchen und zum Warenkorb hinzufügen.">
+  <title>FrischKorb | Frische Produkte</title>
+  <link rel="icon" type="image/png" href="img/frischkorb-icon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/cairo.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/project.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="site-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <span>Frische Auswahl für deinen Einkauf</span>
+      <span>Entdecken · Auswählen · Genießen</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center header-inner">
+      <a href="index.html" aria-label="FrischKorb Startseite"><img class="site-logo" src="img/frischkorb-logo.png"
+          alt="FrischKorb – Frische Produkte"></a>
+      <nav aria-label="Hauptnavigation" class="d-flex align-items-center">
+        <a href="#start">Startseite</a>
+        <a href="#produkte">Produkte</a>
+        <a class="nav-cart-link" href="#warenkorb"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+          Warenkorb <span class="cart-bubble" id="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container mt-4 mb-5" id="start">
+      <div class="hero-banner">
+        <div class="hero-content">
+          <p class="hero-kicker">FRISCHE PRODUKTE</p>
+          <h1>Frisch einkaufen.<br>Einfach genießen.</h1>
+          <p>Entdecke unsere Auswahl und stelle deinen Warenkorb ganz einfach zusammen.</p>
+          <a class="shop-primary" href="#produkte">Produkte entdecken</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pb-5" id="produkte" aria-labelledby="products-title">
+      <div class="section-heading text-center mb-4">
+        <h2 id="products-title">Unsere Produkte</h2>
+        <div class="green-line"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="tools-bar d-flex flex-wrap align-items-center mb-4">
+            <div class="search-field">
+              <label for="product-search" class="sr-only">Produkte durchsuchen</label>
+              <input id="product-search" type="search" placeholder="Produkt suchen ..." autocomplete="off">
+            </div>
+            <div class="sort-field">
+              <label for="sort-select" class="sr-only">Produkte sortieren</label>
+              <select id="sort-select">
+                <option value="default">Sortierung</option>
+                <option value="title-asc">Name: A bis Z</option>
+                <option value="price-asc">Preis: günstig zuerst</option>
+                <option value="price-desc">Preis: teuer zuerst</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="category-filter" role="group" aria-label="Produktkategorien">
+            <p class="category-filter-title">Kategorien</p>
+            <div class="category-filter-buttons" id="category-filters">
+              <button class="category-button is-active" type="button" data-category="all" aria-pressed="true">Alle Produkte</button>
+              <button class="category-button" type="button" data-category="obst" aria-pressed="false">Obst</button>
+              <button class="category-button" type="button" data-category="gemuese" aria-pressed="false">Gemüse</button>
+              <button class="category-button" type="button" data-category="getraenke" aria-pressed="false">Getränke</button>
+              <button class="category-button" type="button" data-category="milchprodukte" aria-pressed="false">Milchprodukte</button>
+              <button class="category-button" type="button" data-category="fleisch" aria-pressed="false">Fleisch</button>
+              <button class="category-button" type="button" data-category="fisch" aria-pressed="false">Fisch</button>
+              <button class="category-button" type="button" data-category="eier" aria-pressed="false">Eier</button>
+              <button class="category-button" type="button" data-category="vorrat" aria-pressed="false">Vorrat</button>
+              <button class="category-button" type="button" data-category="tiefkuehl" aria-pressed="false">Tiefkühl</button>
+              <button class="category-button" type="button" data-category="tierbedarf" aria-pressed="false">Tierbedarf</button>
+            </div>
+          </div>
+
+          <p class="products-caption" id="product-count"></p>
+
+          <div class="row" id="product-grid" aria-live="polite"></div>
+        </div>
+
+        <div class="col-lg-4" id="warenkorb">
+          <aside class="cart-panel" aria-labelledby="cart-title">
+            <div class="cart-header d-flex align-items-center justify-content-between">
+              <h2 id="cart-title"><i class="fa-solid fa-basket-shopping" aria-hidden="true"></i> Dein Warenkorb</h2>
+              <span class="cart-bubble" id="cart-panel-count">0</span>
+            </div>
+            <div id="cart-items" class="cart-items" aria-live="polite"></div>
+            <div class="cart-total d-flex align-items-center justify-content-between">
+              <strong>Gesamt</strong><strong id="cart-total">0,00 €</strong>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p>FrischKorb</p>
+    </div>
+  </footer>
+</body>
+
+</html>

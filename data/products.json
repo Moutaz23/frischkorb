@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Bananen",
+    "price": 1.99,
+    "thumbnail": "img/products/bananen.webp",
+    "category": "obst"
+  },
+  {
+    "id": 2,
+    "title": "Guaven",
+    "price": 3.49,
+    "thumbnail": "img/products/guaven.webp",
+    "category": "obst"
+  },
+  {
+    "id": 3,
+    "title": "Wassermelone",
+    "price": 4.99,
+    "thumbnail": "img/products/wassermelone.webp",
+    "category": "obst"
+  },
+  {
+    "id": 4,
+    "title": "Trauben",
+    "price": 2.79,
+    "thumbnail": "img/products/trauben.webp",
+    "category": "obst"
+  },
+  {
+    "id": 5,
+    "title": "Mango",
+    "price": 3.29,
+    "thumbnail": "img/products/mango.webp",
+    "category": "obst"
+  },
+  {
+    "id": 6,
+    "title": "Äpfel",
+    "price": 2.49,
+    "thumbnail": "img/products/aepfel.webp",
+    "category": "obst"
+  },
+  {
+    "id": 7,
+    "title": "Rindersteak",
+    "price": 12.99,
+    "thumbnail": "img/products/rindersteak.webp",
+    "category": "fleisch"
+  },
+  {
+    "id": 8,
+    "title": "Katzenfutter",
+    "price": 8.99,
+    "thumbnail": "img/products/katzenfutter.webp",
+    "category": "tierbedarf"
+  },
+  {
+    "id": 9,
+    "title": "Hähnchenfleisch",
+    "price": 9.99,
+    "thumbnail": "img/products/haehnchenfleisch.webp",
+    "category": "fleisch"
+  },
+  {
+    "id": 10,
+    "title": "Speiseöl",
+    "price": 4.99,
+    "thumbnail": "img/products/speiseoel.webp",
+    "category": "vorrat"
+  },
+  {
+    "id": 11,
+    "title": "Gurke",
+    "price": 1.49,
+    "thumbnail": "img/products/gurke.webp",
+    "category": "gemuese"
+  },
+  {
+    "id": 12,
+    "title": "Hundefutter",
+    "price": 10.99,
+    "thumbnail": "img/products/hundefutter.webp",
+    "category": "tierbedarf"
+  },
+  {
+    "id": 13,
+    "title": "Eier",
+    "price": 2.99,
+    "thumbnail": "img/products/eier.webp",
+    "category": "eier"
+  },
+  {
+    "id": 14,
+    "title": "Fischfilet",
+    "price": 14.99,
+    "thumbnail": "img/products/fischfilet.webp",
+    "category": "fisch"
+  },
+  {
+    "id": 15,
+    "title": "Grüne Paprika",
+    "price": 1.29,
+    "thumbnail": "img/products/gruene-paprika.webp",
+    "category": "gemuese"
+  },
+  {
+    "id": 16,
+    "title": "Grüne Chilischoten",
+    "price": 0.99,
+    "thumbnail": "img/products/gruene-chilischoten.webp",
+    "category": "gemuese"
+  },
+  {
+    "id": 17,
+    "title": "Honig",
+    "price": 6.99,
+    "thumbnail": "img/products/honig.webp",
+    "category": "vorrat"
+  },
+  {
+    "id": 18,
+    "title": "Eiscreme",
+    "price": 5.49,
+    "thumbnail": "img/products/eiscreme.webp",
+    "category": "tiefkuehl"
+  },
+  {
+    "id": 19,
+    "title": "Fruchtsaft",
+    "price": 3.99,
+    "thumbnail": "img/products/fruchtsaft.webp",
+    "category": "getraenke"
+  },
+  {
+    "id": 20,
+    "title": "Kiwi",
+    "price": 2.49,
+    "thumbnail": "img/products/kiwi.webp",
+    "category": "obst"
+  },
+  {
+    "id": 21,
+    "title": "Zitronen",
+    "price": 0.79,
+    "thumbnail": "img/products/zitronen.webp",
+    "category": "obst"
+  },
+  {
+    "id": 22,
+    "title": "Milch",
+    "price": 3.49,
+    "thumbnail": "img/products/milch.webp",
+    "category": "milchprodukte"
+  },
+  {
+    "id": 23,
+    "title": "Maulbeeren",
+    "price": 4.99,
+    "thumbnail": "img/products/maulbeeren.webp",
+    "category": "obst"
+  },
+  {
+    "id": 24,
+    "title": "Kaffee",
+    "price": 7.99,
+    "thumbnail": "img/products/kaffee.webp",
+    "category": "getraenke"
+  },
+  {
+    "id": 25,
+    "title": "Kartoffeln",
+    "price": 2.29,
+    "thumbnail": "img/products/kartoffeln.webp",
+    "category": "gemuese"
+  },
+  {
+    "id": 26,
+    "title": "Rote Zwiebeln",
+    "price": 1.99,
+    "thumbnail": "img/products/rote-zwiebeln.webp",
+    "category": "gemuese"
+  },
+  {
+    "id": 27,
+    "title": "Reis",
+    "price": 5.99,
+    "thumbnail": "img/products/reis.webp",
+    "category": "vorrat"
+  },
+  {
+    "id": 28,
+    "title": "Limonade",
+    "price": 1.99,
+    "thumbnail": "img/products/limonade.webp",
+    "category": "getraenke"
+  },
+  {
+    "id": 29,
+    "title": "Erdbeeren",
+    "price": 3.99,
+    "thumbnail": "img/products/erdbeeren.webp",
+    "category": "obst"
+  },
+  {
+    "id": 30,
+    "title": "Mineralwasser",
+    "price": 0.99,
+    "thumbnail": "img/products/mineralwasser.webp",
+    "category": "getraenke"
+  }
+]
