@@ -1,36 +1,43 @@
 # FrischKorb
 
-Ein kleiner Mini-Onlineshop, den ich im Rahmen meiner JavaScript- und AJAX-Weiterbildung umgesetzt habe.
+FrischKorb ist mein Projekt aus dem JavaScript- und AJAX-Kurs. Ich wollte einen kleinen Shop bauen, in dem man Produkte suchen und einen Warenkorb zusammenstellen kann.
 
 ## Funktionen
 
-- Produkte aus einer JSON-Datei laden
-- Produkte suchen, nach Kategorien filtern und nach Preis oder Namen sortieren
-- Produkte zum Warenkorb hinzufügen und wieder entfernen
-- Mengen mit Plus und Minus ändern
-- Gesamtpreis automatisch berechnen
-- Warenkorb im LocalStorage speichern
+- Produkte werden aus einer JSON-Datei geladen
+- Suche nach Produktnamen und Filter nach Kategorien
+- Sortieren nach Name oder Preis
+- Warenkorb mit Plus, Minus und Löschen
+- Gesamtpreis wird automatisch berechnet
+- Warenkorb bleibt durch LocalStorage auch nach dem Neuladen gespeichert
+
+## Screenshots
+
+**Startseite**
+
+![Startseite von FrischKorb](docs/screenshots/startseite.png)
+
+**Produktübersicht**
+
+![Produkte und Kategorien](docs/screenshots/produkte.png)
+
+**Warenkorb**
+
+![Warenkorb mit Mengensteuerung](docs/screenshots/warenkorb.png)
 
 ## Technologien
 
 HTML, CSS, Bootstrap, JavaScript, JSON, XMLHttpRequest und Font Awesome.
 
-## Lokal starten
+## Projekt starten
 
-1. Projektordner in VS Code öffnen.
-2. `index.html` mit **Live Server** starten.
+Den Ordner in VS Code öffnen und `index.html` mit **Live Server** starten. Die Produkte kommen aus `data/products.json`, deshalb funktioniert das Laden nicht direkt über `file://`.
 
-Die Produktdaten werden mit XMLHttpRequest aus `data/products.json` geladen. Deshalb sollte das Projekt über einen lokalen Webserver statt direkt über `file://` geöffnet werden.
+## Dateien
 
-## Projektstruktur
+- `index.html` – die Seite
+- `js/main.js` – JavaScript für Produkte und Warenkorb
+- `data/products.json` – Produktliste
+- `css/`, `assets/` und `img/` – Design, Icons und Bilder
 
-- `index.html` – Aufbau der Seite
-- `js/main.js` – Suche, Filter, Sortierung und Warenkorb
-- `data/products.json` – Produktdaten
-- `css/` – Stylesheets
-- `assets/` – Schriftarten und Icons
-- `img/` – Produktbilder, Banner und Logo
-
-## Design
-
-Das Layout wurde auf Grundlage von Elementen des **Ogani-Templates von Colorlib** für FrischKorb angepasst. Der Schwerpunkt des Übungsprojekts liegt auf der Umsetzung der interaktiven Funktionen mit JavaScript.
+*Für das Grundlayout habe ich Elemente aus dem Ogani-Template von Colorlib angepasst.*
